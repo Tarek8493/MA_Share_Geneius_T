@@ -1,0 +1,31 @@
+body{
+   width: 30mm;
+   height: 40mm;
+background-color: rgb(211, 72, 3);
+animation-name: colchange;
+animation-duration: 2s;
+animation-iteration-count: infinite;
+color: rgb(252, 252, 252);
+}
+@keyframes colchange{
+   
+    0%{background-color: rgb(230, 189, 8);}
+    12%{background-color: rgb(230, 204, 8);}
+    24%{background-color: rgb(230, 175, 8);}
+    36%{background-color: rgb(211, 117, 10);}
+    48%{background-color: rgb(189, 54, 16);}
+    60%{background-color: rgb(211, 117, 10);}
+    72%{background-color: rgb(230, 175, 8);}
+    84%{background-color: rgb(230, 204, 8);}
+    100%{background-color: rgb(230, 189, 8);}
+    
+    
+}
+a{
+    color: white;
+}
+h1{
+    width: 20cm;
+    text-align: right;
+    color: bisque;
+}
