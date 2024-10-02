@@ -3,29 +3,79 @@ body{
    height: 40mm;
 background-color: rgb(211, 72, 3);
 animation-name: colchange;
-animation-duration: 2s;
+animation-duration: 9s;
 animation-iteration-count: infinite;
 color: rgb(252, 252, 252);
 }
 @keyframes colchange{
    
-    0%{background-color: rgb(230, 189, 8);}
-    12%{background-color: rgb(230, 204, 8);}
-    24%{background-color: rgb(230, 175, 8);}
-    36%{background-color: rgb(211, 117, 10);}
-    48%{background-color: rgb(189, 54, 16);}
-    60%{background-color: rgb(211, 117, 10);}
-    72%{background-color: rgb(230, 175, 8);}
-    84%{background-color: rgb(230, 204, 8);}
-    100%{background-color: rgb(230, 189, 8);}
+    0%{background-color: rgba(11, 134, 6, 0.623);}
+    17%{background-color: rgba(45, 182, 3, 0.733);}
+    34%{background-color: rgb(230, 67, 8);}
+    51%{background-color: rgb(60, 10, 211);}
+    68%{background-color: rgb(230, 67, 8);}
+    85%{background-color: rgba(45, 182, 3, 0.733);}
+    100%{background-color: rgba(11, 134, 6, 0.623);}
+   
     
+ 
     
 }
-a{
-    color: white;
-}
+
 h1{
     width: 20cm;
     text-align: right;
     color: bisque;
 }
+.nav {
+    list-style-type: none;
+    background-color: lightgray;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+ul.nav li {
+    float: left;
+}
+ul.nav li a {
+    display: block;
+    padding: 8px 16px;
+    color: black;
+    text-decoration: none;
+}
+ul.nav a:hover {
+    background-color: #555;
+    color: white;
+}
+.active {
+    background-color: antiquewhite;}
+    img{
+        width: 5cm;
+        
+        
+    }
+    .column{
+        float: right;
+        width: 20%;
+        padding: 5px;
+    }
+    .row::after{
+        content: "";
+  clear: both;
+  display: table;
+  
+    }
+    * {
+        box-sizing: border-box;
+      }
+      a{
+        width: 500 cm;
+        color: aliceblue;
+      }
+      li{
+        width: 500cm;
+      }
+      p{
+        width: 15cm;
+      }
+      
